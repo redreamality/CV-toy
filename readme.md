@@ -10,5 +10,6 @@ what this code doing?
 To Do
 --
 
-- 其他格式的支持
+- 转换excel的sheet（用xlrd模块）
+- 翻译（python translate）
 - 自然语言处理和自动抽取
