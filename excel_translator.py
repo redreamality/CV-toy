@@ -7,6 +7,9 @@ from translate import Translator
 
 
 def main():
+    translate_excel()
+
+def translate_excel():
     translator= Translator(from_lang="zh",to_lang="en")
 
     # sXXX for SOURCExxx
@@ -37,10 +40,6 @@ def main():
                     tsheet.write(row,col,tcell_value)
                 except: #the value might be float
                     tsheet.write(row,col,s.cell(row,col).value)
-                    
-                
-                
-            
             tsheet.flush_row_data()
     print "saving..."    
     tbook.save('english_output.xls')
