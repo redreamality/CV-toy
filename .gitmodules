@@ -1,3 +1,12 @@
 [submodule "translation"]
 	path = translation
 	url = https://github.com/terryyin/google-translate-python.git
+[submodule "excel_read"]
+	path = excel_read
+	url = https://github.com/python-excel/xlrd.git
+[submodule "excel_write"]
+	path = excel_write
+	url = https://github.com/python-excel/xlwt.git
+[submodule "xlutils"]
+	path = xlutils
+	url = https://github.com/python-excel/xlutils.git
