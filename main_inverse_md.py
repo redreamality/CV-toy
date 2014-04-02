@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 #author:redreamality Ð»³¿ê»
 
-import codecs
+# import codecs
 
 def read_txt_and_write():    
     #file read and process
@@ -14,7 +14,6 @@ def read_txt_and_write():
     outfile = open("tabhtml.html",'w')
     print_table(all_lines,outfile)
     outfile.close()
-
 
 #read and process table by line
 def invert_txt_table(txts):
